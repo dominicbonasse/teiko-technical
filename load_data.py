@@ -17,7 +17,7 @@ cursor.execute("""
         treatment TEXT,
         response TEXT
     );
-    """)
+""")
 
 # samples stores data for each unique blood sample, linked to subjects
 cursor.execute("""
@@ -28,7 +28,7 @@ cursor.execute("""
         time_from_treatment_start INTEGER,
         FOREIGN KEY (subject) REFERENCES subjects(subject)
     );
-    """)
+""")
 
 # cell_counts stores cell counts, linked to samples
 cursor.execute("""
@@ -41,7 +41,7 @@ cursor.execute("""
         monocyte INTEGER,
         FOREIGN KEY (sample) REFERENCES samples(sample)
     );
-    """)
+""")
 
 with open('cell-count.csv', mode='r') as f:
     reader = csv.DictReader(f)
