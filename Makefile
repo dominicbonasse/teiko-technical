@@ -6,7 +6,6 @@ PIP = $(VENV_BIN)/pip
 
 setup:
 	python -m venv .venv
-	$(PIP) install --upgrade pip
 	$(PIP) install -r requirements.txt
 
 pipeline:

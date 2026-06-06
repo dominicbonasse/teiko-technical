@@ -1,7 +1,7 @@
 # teiko-technical README
 Install the entire folder from GitHub.
 
-Navigate to this directory in your shell and ensure the 'make' utility is installed.
+Navigate to this directory in your shell and ensure both pip and the 'make' utility are installed.
 
 Run the 'make setup' command to create a virtual environment, install pip, and install all requirements.
 
