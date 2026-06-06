@@ -1,4 +1,7 @@
 cell_count.db
 baseline.csv
 frequencies.csv
+summary_table.csv
+stats.csv
 boxplot.png
+.venv
